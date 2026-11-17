@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin | SoCal Trail Log</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main id="main"><div class="wrap">
+    <h1>Admin dashboard</h1>
+    <p id="msg" class="panel" hidden></p>
+    <section id="app" hidden>
+      <div class="tabs" role="tablist">
+        <button role="tab" data-tab="trails" aria-selected="true">Trails</button>
+        <button role="tab" data-tab="messages" aria-selected="false">Messages</button>
+      </div>
+
+      <div id="tab-trails">
+        <p><button class="btn" id="add">Add trail</button></p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Name</th><th>Region</th><th>Difficulty</th><th>Miles</th><th>Gain (ft)</th><th>Actions</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table></div>
+      </div>
+
+      <div id="tab-messages" hidden>
+        <div id="messages"></div>
+      </div>
+    </section>
+
+    <dialog id="editor">
+      <form id="form" novalidate>
+        <h2 id="formTitle">Add trail</h2>
+        <div class="cols">
+          <div><label for="f-name">Name</label><input id="f-name" required maxlength="120"></div>
+          <div><label for="f-slug">Slug (URL id)</label><input id="f-slug" required pattern="[a-z0-9-]+" maxlength="80"></div>
+          <div><label for="f-region">Region</label><input id="f-region" required maxlength="80"></div>
+          <div><label for="f-difficulty">Difficulty</label><select id="f-difficulty"><option>Easy</option><option>Moderate</option><option>Hard</option><option>Strenuous</option></select></div>
+          <div><label for="f-distance">Distance (miles)</label><input id="f-distance" type="number" step="0.1" min="0.1" required></div>
+          <div><label for="f-gain">Elevation gain (ft)</label><input id="f-gain" type="number" min="0" required></div>
+          <div><label for="f-summit">Summit elevation (ft)</label><input id="f-summit" type="number" min="0" required></div>
+          <div><label for="f-time">Estimated time</label><input id="f-time" required maxlength="40"></div>
+        </div>
+        <label for="f-trailhead">Trailhead</label><input id="f-trailhead" required maxlength="120">
+        <label for="f-desc">Description</label><textarea id="f-desc" rows="4" required maxlength="1000"></textarea>
+        <label><input type="checkbox" id="f-six" style="width:auto"> Part of the Six-Pack</label>
+        <label for="f-image">Photo (leave empty to keep the current one)</label><input id="f-image" type="file" accept="image/jpeg,image/png,image/webp">
+        <label for="f-credit">Photo credit</label><input id="f-credit" maxlength="200">
+        <p id="err" class="error" role="alert"></p>
+        <div class="row"><button class="btn" type="submit" id="save">Save</button><button class="btn btn-ghost dark" type="button" id="cancel">Cancel</button></div>
+      </form>
+    </dialog>
+
+    <dialog id="confirm"><form method="dialog">
+      <p id="confirmText"></p>
+      <div class="row"><button class="btn btn-danger" value="yes">Delete</button><button class="btn btn-ghost dark" value="no">Cancel</button></div>
+    </form></dialog>
+  </div></main>
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>

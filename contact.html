@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | SoCal Trail Log</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main id="main"><div class="wrap two">
+    <section>
+      <h1>Contact</h1>
+      <p>Questions, corrections, or trail suggestions? Send a message.</p>
+      <ul class="plain">
+        <li><strong>Name:</strong> [YOUR NAME]</li>
+        <li><strong>Email:</strong> [YOUR EMAIL]</li>
+      </ul>
+    </section>
+    <form id="form" novalidate>
+      <label for="name">Your name</label><input id="name" required maxlength="100" autocomplete="name">
+      <label for="email">Your email</label><input id="email" type="email" required maxlength="200" autocomplete="email">
+      <label for="message">Message</label><textarea id="message" rows="6" required maxlength="2000"></textarea>
+      <p id="err" class="error" role="alert"></p>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+  </div></main>
+  <script type="module" src="js/contact.js"></script>
+</body>
+</html>

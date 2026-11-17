@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Hikes | SoCal Trail Log</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main id="main"><div class="wrap">
+    <h1>My Hikes</h1>
+    <p id="msg" class="panel" hidden></p>
+    <section id="app" hidden>
+      <h2>Six-Pack progress: <span id="count">0/6</span></h2>
+      <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0" aria-label="Six-Pack progress"><span id="bar" style="width:0"></span></div>
+      <div id="list" class="hikes"></div>
+    </section>
+  </div></main>
+  <script type="module" src="js/my-hikes.js"></script>
+</body>
+</html>

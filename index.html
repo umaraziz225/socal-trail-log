@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SoCal Trail Log</title>
+  <meta name="description" content="Southern California hikes, the SoCal Six-Pack of Peaks challenge, and a place to log your summits.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main id="main" style="padding-top:0">
+    <section class="hero">
+      <img class="hero-img" src="assets/img/trails/san-gorgonio-mountain.jpg" alt="Snow-dusted ridgeline of San Gorgonio Mountain">
+      <div class="wrap">
+        <h1>Climb Southern California</h1>
+        <p>Browse classic SoCal summits, from the Six-Pack of Peaks to San Diego favorites, and keep a log of every one you finish.</p>
+        <a class="btn" href="#trails">Browse trails</a>
+      </div>
+    </section>
+
+    <section class="wrap six" aria-labelledby="six-h">
+      <h2 id="six-h">The SoCal Six-Pack of Peaks</h2>
+      <p>Six summits, each over 5,000 feet, spread across three mountain ranges: <strong>Mt. Wilson, Cucamonga Peak, Mt. Baldy, San Bernardino Peak, San Jacinto Peak</strong> and <strong>San Gorgonio Mountain</strong>. Finish all six and you have earned the region's best-known hiking bragging rights. Create a free account to track your progress.</p>
+    </section>
+
+    <section class="wrap" id="trails" aria-labelledby="t-h">
+      <h2 id="t-h">All trails</h2>
+      <form class="filters" role="search" onsubmit="return false">
+        <div><label for="q">Search</label><input id="q" type="search" placeholder="Name or trailhead"></div>
+        <div><label for="region">Region</label><select id="region"><option value="">All regions</option></select></div>
+        <div><label for="diff">Difficulty</label><select id="diff"><option value="">All</option><option>Easy</option><option>Moderate</option><option>Hard</option><option>Strenuous</option></select></div>
+        <div><label for="sort">Sort by</label><select id="sort"><option value="name">Name</option><option value="distance_miles">Distance (short first)</option><option value="elevation_gain_ft">Elevation gain (low first)</option></select></div>
+      </form>
+      <p id="count" aria-live="polite"></p>
+      <div class="grid" id="grid"></div>
+      <p class="note">Stats are approximate; check current conditions and permits before hiking.</p>
+    </section>
+  </main>
+  <script type="module" src="js/index.js"></script>
+</body>
+</html>

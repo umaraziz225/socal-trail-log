@@ -1,0 +1,74 @@
+{
+  "mt-wilson": {
+    "file": "Marine layer from Mount Wilson.jpg",
+    "author": "Grigory Heaton",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Marine_layer_from_Mount_Wilson.jpg",
+    "caption": "Photo: Grigory Heaton, CC BY-SA 4.0"
+  },
+  "cucamonga-peak": {
+    "file": "Cucamonga Peak.jpg",
+    "author": "Mk1Mod0",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cucamonga_Peak.jpg",
+    "caption": "Photo: Mk1Mod0, Public domain"
+  },
+  "mt-baldy": {
+    "file": "Mount Baldy Mountain.JPG",
+    "author": "Eric T Gunther",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Baldy_Mountain.JPG",
+    "caption": "Photo: Eric T Gunther, CC BY-SA 3.0"
+  },
+  "san-bernardino-peak": {
+    "file": "054 San Bernardino Peak Divide Trail Views (20) - San Bernardino Peak (2).jpg",
+    "author": "The Fun Chronicles",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:054_San_Bernardino_Peak_Divide_Trail_Views_(20)_-_San_Bernardino_Peak_(2).jpg",
+    "caption": "Photo: The Fun Chronicles, CC0"
+  },
+  "san-jacinto-peak": {
+    "file": "San Jacinto Peak 0675.jpg",
+    "author": "Kit Conn",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Jacinto_Peak_0675.jpg",
+    "caption": "Photo: Kit Conn, CC BY-SA 3.0"
+  },
+  "san-gorgonio-mountain": {
+    "file": "San Gorgonio Mountain (52023674577).jpg",
+    "author": "Joshua Tree National Park",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Gorgonio_Mountain_(52023674577).jpg",
+    "caption": "Photo: Joshua Tree National Park, Public domain"
+  },
+  "cowles-mountain": {
+    "file": "Cowles Mountain San Carlos by Patty Mooney.jpg",
+    "author": "Pattymooney",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cowles_Mountain_San_Carlos_by_Patty_Mooney.jpg",
+    "caption": "Photo: Pattymooney, CC BY-SA 3.0"
+  },
+  "mt-woodson": {
+    "file": "Mount Woodson Trail and Lake Poway 102.jpg",
+    "author": "chrisinphilly5448",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Woodson_Trail_and_Lake_Poway_102.jpg",
+    "caption": "Photo: chrisinphilly5448, CC BY-SA 2.0"
+  },
+  "iron-mountain": {
+    "file": "082 Black Mountain Summit Views (21) - Iron Mountain, San Diego County.jpg",
+    "author": "The Fun Chronicles",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:082_Black_Mountain_Summit_Views_(21)_-_Iron_Mountain,_San_Diego_County.jpg",
+    "caption": "Photo: The Fun Chronicles, CC0"
+  }
+}
