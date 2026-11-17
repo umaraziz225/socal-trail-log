@@ -66,3 +66,9 @@ Build "SoCal Trail Log", a static full-stack app (HTML/CSS/vanilla JS + Supabase
 - Checked the repo for secrets: only the anon/publishable key is present; no service_role key.
 - Problem: GitHub CLI (`gh`) is not installed on this machine, so I could not create the repo or enable Pages. Local git repo is initialized and committed; steps to install gh, create the repo and enable Pages are in the final message / below.
 - Not verified yet: the live URL (nothing deployed), real sign-up/login/reset emails, admin photo upload, and the signed-in flows against the real project.
+
+## Deployment
+- `gh` was installed but not on this session's PATH until restart; called it by full path.
+- Created public repo https://github.com/umaraziz225/socal-trail-log, pushed `main`, enabled Pages (main, root).
+- Live: https://umaraziz225.github.io/socal-trail-log/ (returned 404 for ~50s, then 200).
+- Verified live in headless Chrome at 375 and 1280px: all 7 pages load under the /socal-trail-log/ subpath, 9 trails from Supabase, no console errors, no failed requests, no overflow; admin.html redirects anonymous visitors home.

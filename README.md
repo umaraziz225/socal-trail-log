@@ -2,7 +2,7 @@
 
 A public site showcasing Southern California hikes, centered on the SoCal Six-Pack of Peaks challenge, plus three San Diego favorites. Visitors browse trails; signed-in users track completed hikes; admins manage trails and contact messages.
 
-**Live:** https://umaraziz225.github.io/socal-trail-log/ (available after Phase 6)
+**Live:** https://umaraziz225.github.io/socal-trail-log/
 
 ## Features
 - Searchable/filterable trail grid (region, difficulty, sort by distance or elevation)
